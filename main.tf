@@ -13,7 +13,7 @@ terraform {
 # Configure the docker provider
 provider "docker" {
 }
-#**** ---> depracated terraform syntax <--- ****
+#**** ---> up-to-date terraform syntax <--- ****
 # # Create a docker image resource
 # # -> docker pull nginx:latest
 # resource "docker_image" "image_id" {
@@ -32,7 +32,7 @@ provider "docker" {
 #   }
 # }
 
-#**** ---> updated terraform syntax <--- ****
+#**** ---> depracated terraform syntax <--- ****
 # resource "docker_image" "image_id" {
 #   name = "ghost:latest"
 # }
